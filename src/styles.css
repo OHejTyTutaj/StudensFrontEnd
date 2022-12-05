@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 3px;
+  border: 1px solid #999;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
